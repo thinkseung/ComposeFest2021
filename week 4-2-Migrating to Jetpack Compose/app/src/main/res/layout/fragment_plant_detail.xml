@@ -96,7 +96,7 @@
             <!--<androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="@dimen/margin_normal">
+                android:layout_margin="@dimen/margin_normal">-->
 
                 <TextView
                     android:id="@+id/plant_detail_name"
@@ -140,7 +140,7 @@
                     app:wateringText="@{viewModel.plant.wateringInterval}"
                     tools:text="every 7 days" />
 
-                <TextView
+                <!--<TextView
                     android:id="@+id/plant_description"
                     style="?android:attr/textAppearanceMedium"
                     android:layout_width="0dp"
